@@ -7,7 +7,7 @@
 }
 /* HEADER SECTION STARTS HERE */
 .headerSection{
-   background: transparent;
+   background: #212c5735;
    position: fixed;
    width: 100%;
    top: 0px;
@@ -24,13 +24,24 @@
 .forimg{
    margin: 0px;
 }
+
+.header .forcollapse{
+   visibility: hidden;
+   position: relative;
+   margin: 0px;
+}
+
 .header ul{
    margin: 0px;
    list-style-type: none;
    padding: 0px;
    display: flex;
    flex-direction: row;
+
+   visibility: visible;
+   position: relative;
 }
+
 .header ul li{
    margin: 2px;
 }  
@@ -42,13 +53,14 @@
    font-weight: 600;
    text-decoration: none;
    transition: all 0.2s ease-in-out 0s;
+   text-shadow: 0px 0px 3px black;
 }  
 
 .header a:hover{
    color: white;
 }
-
 /* HEADER SECCTION ENDS HERE */
+
 
 /* HERO STARTS HERE  */
 .hero {
@@ -71,8 +83,118 @@
    color: #E2DED5;
    font-size: 19px;
 }
-
 /* HERO ENDS HERE */
+
+
+/* ABOUT US STARTS HERE */
+.about-sec{
+   padding: 50px 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.about-sec>div{
+   width: 40%;
+   background: white;
+   margin: 0px;
+}
+.about-sec>div button{
+   border: none;
+   padding: 10px 15px;
+   border-radius: 5px;
+   font-size: 17px;
+   background: #212c5735;
+   color: #182141;
+   font-weight: 600;
+   margin: 5px 0px;
+}
+.about-sec p{
+   font-size: 17px;
+   margin: 10px 0px;
+}
+/* ABOUT US ENDS HERE */
+
+
+/* CERTIFICATE VERIFICATION STARTS HERE */
+.certificate-sec{
+   background: #212c5735;;
+}
+.certificate-sec>div{
+   padding: 30px 0px;
+   /* background: rebeccapurple; */
+   text-align: center;
+}
+
+.certificate-sec h1{
+   font-size: 30px;
+   margin: 10px 0px;
+   font-weight: 600;
+   color: #0E1220;
+}
+.certificate-sec p{
+   font-size: 17px;
+   margin: 20px 0px;
+   color: #0E1220;
+   font-weight: 600;
+}
+.certificate-sec .inner-div{
+   background: white;
+   width: 50%;
+   padding: 15px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+   input{
+      width: 70%;
+      font-size: 17px;
+      padding: 10px;
+      border: none;
+      outline: none;
+      margin: 0px;
+   }
+   button{
+      background-color: #F2B636;
+      padding: 13px 20px;
+      width: fit-content;
+      margin: 0px;
+      font-size: 17px ;
+      font-weight: 400;
+      border-radius: 5px;
+      border: none;
+      color: white;
+   }
+}
+/* CERTIFICATE VEFICATION ENDS HERE */
+
+
+/*MOVEMENT SECTION ENDS HERE */
+.movement-section{
+   background-color: #F2B636;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   color: #182141;
+   /* text-align: right; */
+}
+.movement-section>div{
+   width: 40%;
+   /* background: red; */
+   padding: 30px 0px;
+}
+.movement-section>div h1{
+   margin: 0px 0px 20px 0px;
+   font-weight: 700;
+}
+.movement-section>div h2{
+   margin: 20px 0px 10px 0px;
+   /* background: yellow; */
+   font-weight: 700;
+   font-size: 20px;
+}
+/* MOVEMENT SECTION ENDS HERE */
+
 
 /*FOOTER STARTS HERE*/
 .footer{
@@ -99,6 +221,10 @@
    h1{
       font-size: 30px;
       line-height: 30px;
+      color: white;
+   }
+   h2{
+      margin: 20px 0px 0px 0px;
       color: white;
    }
    p{
@@ -162,3 +288,86 @@
 }
 
 /* FOOTER ENDS HERE */
+
+
+@media screen and (max-width: 768px) {
+   .left-right{
+      margin: 0px 2%;
+   }
+   /* header */
+   .headerSection{
+      background: transparent;
+      background: #182141;
+   }
+   .header .forcollapse{
+      visibility: visible;
+      position: relative;
+
+      button{
+         background: none;
+         border: 1px solid #F2B636;
+         color: white;
+         padding: 8px 10px;
+         font-size: 20px;
+      }
+   }
+   .header ul{
+      background: red;
+      margin: 0px;
+      list-style-type: none;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+
+      visibility: hidden;
+      position: absolute;
+   }
+   
+
+   /* hero section*/
+   .hero>div{
+      width: inherit;
+   }
+   .hero>div h1{
+      font-size: 30px;
+   }
+
+   /* about section */
+   .about-sec{
+      flex-direction: column;
+   }
+   .about-sec>div{
+      width: inherit;
+   }
+
+   /* certificate section */
+   .certificate-sec .inner-div{
+      background: white;
+      width: inherit;
+
+      input{
+         width: 50%;
+         padding: 0px;
+      }
+      button{
+         padding: 10px;
+      }
+   }
+
+   /* movement section */
+   .movement-section>div{
+      padding: 10px;
+      width: 100%;
+      padding: 30px 0px;
+   }
+
+   /* footer section */
+   .inner-footer{
+      flex-direction: column;
+   }
+   .inner-footer .eachitem{
+      margin: 0px;
+      /* background-color: gold; */
+      width: 50% !important;
+   }
+}

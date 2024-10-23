@@ -1,6 +1,7 @@
 import React from 'react'
 import "../assets/css/App.css"
 import { 
+  
   FaFacebook, 
   FaWhatsapp, 
   FaTwitter, 
@@ -21,6 +22,9 @@ const Footer = () => {
           <p>
             Empowering Africa's Future through Cutting-Edge Technology
           </p>
+          <h2>
+            Stay updated
+          </h2>
           <div className='foricons'>
             <a href="#"><FaFacebook/></a>
             <a href="#"><FaTwitter/></a>

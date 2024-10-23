@@ -1,6 +1,7 @@
 import React from 'react'
 import "../assets/css/App.css"
 import logo from "../assets/images/logo44.png"
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
 
@@ -9,6 +10,11 @@ const Header = () => {
          <div className='header left-right'>
             <div className='forimg'>
                <img src={logo} />
+            </div>
+            <div className='forcollapse'>
+               <button className='collapseBut'>
+                  <FaBars/>
+               </button>
             </div>
             <ul>
                <li>
