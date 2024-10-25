@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import "./assets/css/App.css"
+import aboutimg from "./assets/images/background5.jpeg"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +34,10 @@ function App() {
           </p>
         </div>
         <div className='inner-two'>
-          
+          <div className='imagesection'>
+            <img src={aboutimg} alt="about-img"/>
+          </div>
+          <img />
         </div>
       </div>
 
