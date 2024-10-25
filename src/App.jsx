@@ -5,11 +5,10 @@ import "./assets/css/App.css"
 import aboutimg from "./assets/images/background5.jpeg"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header/>
+      <Header />
       {/* hero section */}
       <div className='hero'>
         <div className='left-right'>
@@ -23,7 +22,7 @@ function App() {
       </div>
 
       {/* about section */}
-      <div className='about-sec left-right'>
+      <div className='about-sec left-right' id='about'>
         <div className='inner-one'>
           <button>About Us </button>
           <p>

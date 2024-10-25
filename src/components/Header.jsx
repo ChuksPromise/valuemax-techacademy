@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../assets/css/App.css"
 import logo from "../assets/images/logo44.png"
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+   const [isMobile, setIsMobile] = useState(false)
 
   return (
       <div className='headerSection'>
@@ -12,16 +13,16 @@ const Header = () => {
                <img src={logo} />
             </div>
             <div className='forcollapse'>
-               <button className='collapseBut'>
-                  <FaBars/>
+               <button className='collapseBut' onClick={() => {setIsMobile(!isMobile)}}>
+                  {isMobile ? <FaTimes/> : <FaBars/>}
                </button>
             </div>
-            <ul>
+            <ul className={isMobile ? 'nav-items-mobile' : 'nav-items'} onClick={()=> setIsMobile(false)}>
                <li>
                   <a href="/">Home</a>
                </li>
                <li>
-                  <a href="/">About</a>
+                  <a href="#about">About</a>
                </li>
                <li>
                   <a href="/">Programs</a>
@@ -30,9 +31,6 @@ const Header = () => {
                   <a href="/">Courses</a>
                </li>
             </ul>
-            {/* <div>
-               <input type="search" />
-            </div> */}
          </div>
       </div>
   )
