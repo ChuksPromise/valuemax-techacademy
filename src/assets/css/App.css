@@ -40,6 +40,7 @@ html{
    padding: 0px;
    display: flex;
    flex-direction: row;
+   
 
    visibility: visible;
    position: relative;
@@ -51,6 +52,7 @@ html{
    padding: 0px;
    display: flex;
    flex-direction: row;
+   
 }
 
 
@@ -64,11 +66,13 @@ html{
    color: gainsboro;
    font-weight: 600;
    text-decoration: none;
-   transition: all 0.2s ease-in-out 0s;
+   transition: all 0.4s ease-in-out 0s;
    text-shadow: 0px 0px 3px black;
+
 }  
 
 .header a:hover{
+   background: #0E1220;
    color: white;
 }
 /* HEADER SECCTION ENDS HERE */
@@ -111,6 +115,23 @@ html{
    background: white;
    margin: 0px;
 }
+.about-sec .heads{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.about-sec .heads::before,
+.about-sec .heads::after{
+   content: "";
+   height: 3px;
+   width: 50px;
+   background: #F2B636;
+   display: inline;
+}
+.about-sec .heads h1{
+   width: fit-content;
+   margin: 0px 10px;
+}
 .about-sec>div button{
    border: none;
    padding: 10px 15px;
@@ -150,14 +171,12 @@ html{
 
 /* CERTIFICATE VERIFICATION STARTS HERE */
 .certificate-sec{
-   background: #212c5735;;
+   background: #F9F9F9
 }
 .certificate-sec>div{
-   padding: 30px 0px;
-   /* background: rebeccapurple; */
+   padding: 50px 0px;
    text-align: center;
 }
-
 .certificate-sec h1{
    font-size: 30px;
    margin: 10px 0px;
@@ -244,7 +263,7 @@ html{
    width: 25% !important;
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: flex-start;
    
    h1,p{
@@ -348,6 +367,7 @@ html{
    .header .nav-items{
       visibility: hidden;
       position: absolute;
+      
    }
 
    .header .nav-items-mobile{
@@ -355,13 +375,14 @@ html{
       background: #F2B636;
       list-style-type: none;
       padding: 10px 0px; 
-      width: 99%;
+      width: 30%;
       position: absolute;
       top: 90px;
       left: 0px;
-      right: 0px;
-      margin: 0px auto;
-   
+      right: 5px;
+      margin-left:auto;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out 0s;
    }
    /* .nav-items-mobile{
       visibility: visible;
@@ -382,6 +403,11 @@ html{
    }
    .about-sec>div{
       width: inherit;
+   }
+   .about-sec .heads{
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
    .about-sec .inner-two{
       height: 300px;

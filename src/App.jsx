@@ -24,7 +24,12 @@ function App() {
       {/* about section */}
       <div className='about-sec left-right' id='about'>
         <div className='inner-one'>
-          <button>About Us </button>
+          <div className='heads'> 
+              <h1>
+                About Us
+              </h1>
+          </div>
+          {/* <button>About Us </button> */}
           <p>
             ValueMax TechAcademy is a pioneering institution dedicated to bridging 
             the tech skills gap in Africa. We believe that the continent's unique 
