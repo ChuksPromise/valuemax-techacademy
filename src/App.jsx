@@ -17,12 +17,13 @@ function App() {
       <div className='hero'>
         <div className='left-right'>
           <h1>
-            Welcome to Valuemax TechAcademy
+            Welcome to Valuemax <br /> <span className='type'>TechAcademy</span>
           </h1>
           <p>
             Empowering Africa's Future through Cutting-Edge Technology
           </p>
         </div>
+        
       </div>
 
       {/* about section */}
@@ -51,6 +52,9 @@ function App() {
       {/* VISION SECTION */}
       <div className='vision-sec'>
         <div className='left-right'>
+          <div className='inner-two sma'>
+            <img src={vision} alt="" />
+          </div>
           <div className='inner-one'>
             <div className='heads'> 
               <h1>
@@ -66,9 +70,10 @@ function App() {
               African minds, using African solutions.
             </p>
           </div>
-          <div className='inner-two'>
+          <div className='inner-two lar'>
             <img src={vision} alt="" />
           </div>
+          
         </div>
       </div>
 

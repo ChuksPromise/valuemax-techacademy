@@ -10,7 +10,8 @@ html{
 }
 /* HEADER SECTION STARTS HERE */
 .headerSection{
-   background: #212c57cd;
+   background: #212c57a8;
+   backdrop-filter: blur(15px);
    position: fixed;
    width: 100%;
    top: 0px;
@@ -89,6 +90,9 @@ html{
 }
 .hero>div{
    width: 50%;
+}
+.hero .type{
+   color: #F2B636;
 }
 .hero>div h1{
    font-weight: bold;
@@ -194,6 +198,9 @@ html{
    margin: 0px;
    height: 300px;
    /* background: red; */
+}
+.vision-sec .left-right .lar{
+   display: none;
 }
 .vision-sec .inner-one{
    padding: 50px 20px;
@@ -421,8 +428,11 @@ html{
    /* background:rebeccapurple; */
 
    .forimg{
+      background: red;
       width: 100%;
+      height: 160px;
       img{
+         height: inherit;
          width: 100%;
       }
    }
@@ -440,6 +450,7 @@ html{
 .course-sec .inner .innerscroll{
    height: 450px;
    overflow-y: scroll;
+   padding: 0px 5px;
 }
 
 
@@ -711,6 +722,12 @@ html{
       height: 300px;
       box-sizing: border-box;
       /* background: red; */
+   }
+   .vision-sec .left-right .sma{
+      display: none;
+   }
+   .vision-sec .left-right .lar{
+      display: block;
    }
    .vision-sec .heads{
       display: flex;

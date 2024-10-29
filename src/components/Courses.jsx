@@ -7,6 +7,7 @@ import mobileapp from "../assets/images/mobile-app.jpg"
 import python from "../assets/images/python.png"
 import pythonMl from "../assets/images/python-ml.png"
 import ai from "../assets/images/ai.png"
+import devops from "../assets/images/devops.jpg"
 import uiux from "../assets/images/uiux.png"
 import cms from "../assets/images/cms.webp"
 import dataAnal from "../assets/images/dataAnal.jpg"
@@ -15,6 +16,8 @@ import digi from "../assets/images/digi.jpg"
 import seo from "../assets/images/seo.png"
 import sem from "../assets/images/sem.webp"
 import email from "../assets/images/email.png"
+import market from "../assets/images/market.jpg"
+import basic from "../assets/images/basic.webp"
 import { useState } from 'react'
 
 const Courses = () => {
@@ -230,7 +233,7 @@ const Courses = () => {
             <div className='eachitem'>
                <div className='innerscroll'>
                   <div className='forimg'>
-                     <img src={htmlcss} alt="html-css" />
+                     <img src={devops} alt="html-css"/>
                   </div>
                   <h2>
                      Devops/Cloud Computing
@@ -471,7 +474,7 @@ const Courses = () => {
             <div className='eachitem'>
                <div className='innerscroll'>
                   <div className='forimg'>
-                     <img src={htmlcss} alt="html-css" />
+                     <img src={market} alt="html-css" />
                   </div>
                   <h2>
                      DIGITAL MARKETING: CONTENT MARKETING/BLOGGING
@@ -494,7 +497,7 @@ const Courses = () => {
             <div className='eachitem'>
                <div className='innerscroll'>
                   <div className='forimg'>
-                     <img src={jscourse} alt="html-css" />
+                     <img src={basic} alt="html-css" />
                   </div>
                   <h2>
                      FOUNDATION COMPUTER TRAINING
