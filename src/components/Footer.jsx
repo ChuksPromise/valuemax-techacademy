@@ -26,10 +26,10 @@ const Footer = () => {
             Stay updated
           </h2>
           <div className='foricons'>
-            <a href="#"><FaFacebook/></a>
-            <a href="#"><FaTwitter/></a>
-            <a href="#"><FaInstagram/></a>
-            <a href="#"><FaWhatsapp/></a>
+            <a href="#course"><FaFacebook/></a>
+            <a href="#course"><FaTwitter/></a>
+            <a href="#course"><FaInstagram/></a>
+            <a href="#course"><FaWhatsapp/></a>
           </div>
         </div>
 
@@ -39,11 +39,11 @@ const Footer = () => {
           <div className='item'>
             <h1>About Us </h1>
             <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Hosting & Domain</a></li>
-              <li><a href="#">Buy Data</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="#course">About Us</a></li>
+              <li><a href="#course">Hosting & Domain</a></li>
+              <li><a href="#course">Buy Data</a></li>
+              <li><a href="#course">News</a></li>
+              <li><a href="#course">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -54,18 +54,18 @@ const Footer = () => {
           <div className='item'>
             <h1>Programming</h1>
             <ul>
-              <li><a href="#">Front-End Web Dev</a></li>
-              <li><a href="#">Back-End Web Dev</a></li>
-              <li><a href="#">Python Programming</a></li>
-              <li><a href="#">Data Science & Machine Learning (M.L)</a></li>
-              <li><a href="#">Data Analysis</a></li>
-              <li><a href="#">Mobile App Dev</a></li>
-              <li><a href="#">Desktop Application</a></li>
-              <li><a href="#">Computer Networking</a></li>
-              <li><a href="#">DevOps/Cloud Computing</a></li>
-              <li><a href="#">Cyber Security</a></li>
-              <li><a href="#">Web 3: Blockchain Dev</a></li>
-              <li><a href="#">Artificial Intelligence (A.I), Robotic, <br /> Automation, IOT & Embedded system</a></li>
+              <li><a href="#course">Front-End Web Dev</a></li>
+              <li><a href="#course">Back-End Web Dev</a></li>
+              <li><a href="#course">Python Programming</a></li>
+              <li><a href="#course">Data Science & Machine Learning (M.L)</a></li>
+              <li><a href="#course">Data Analysis</a></li>
+              <li><a href="#course">Mobile App Dev</a></li>
+              <li><a href="#course">Desktop Application</a></li>
+              <li><a href="#course">Computer Networking</a></li>
+              <li><a href="#course">DevOps/Cloud Computing</a></li>
+              <li><a href="#course">Cyber Security</a></li>
+              <li><a href="#course">Web 3: Blockchain Dev</a></li>
+              <li><a href="#course">Artificial Intelligence (A.I), Robotic, <br /> Automation, IOT & Embedded system</a></li>
             </ul>
           </div>
         </div>
@@ -76,15 +76,15 @@ const Footer = () => {
           <div className='item'>
             <h1>Non-Programming</h1>
             <ul>
-              <li><a href="#">Foundation Computer Training</a></li>
-              <li><a href="#">Professional Graphics and 3D Designs</a></li>
-              <li><a href="#">Video Editing/ Motion Graphics, 3D Animation, and White Boarding</a></li>
-              <li><a href="#">UI/UX</a></li>
-              <li><a href="#">Auto card for Architectural Design</a></li>
-              <li><a href="#">Sage & other Accounting Software</a></li>
-              <li><a href="#">Artificial Intelligence apps/tools usage</a></li>
-              <li><a href="#">CMS Based Web Design</a></li>
-              <li><a href="#">Digital Marketing </a></li>
+              <li><a href="#course">Foundation Computer Training</a></li>
+              <li><a href="#course">Professional Graphics and 3D Designs</a></li>
+              <li><a href="#course">Video Editing/ Motion Graphics, 3D Animation, and White Boarding</a></li>
+              <li><a href="#course">UI/UX</a></li>
+              <li><a href="#course">Auto card for Architectural Design</a></li>
+              <li><a href="#course">Sage & other Accounting Software</a></li>
+              <li><a href="#course">Artificial Intelligence apps/tools usage</a></li>
+              <li><a href="#course">CMS Based Web Design</a></li>
+              <li><a href="#course">Digital Marketing </a></li>
             </ul>
           </div>
         </div>
