@@ -179,7 +179,7 @@ function App() {
               Get In Touch
           </h2>
           <p>
-              Contact Us: <a href={"mailto: onehpromie@gmail.com"}>valuemaxonline@gmail.com</a>
+              Contact Us: <a href={"mailto:admin@valuemaxonline.com"}>valuemaxonline@gmail.com</a>
           </p>
           </div>            
         </div>

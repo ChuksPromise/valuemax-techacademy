@@ -26,10 +26,10 @@ const Footer = () => {
             Stay updated
           </h2>
           <div className='foricons'>
-            <a href="#course"><FaFacebook/></a>
-            <a href="#course"><FaTwitter/></a>
-            <a href="#course"><FaInstagram/></a>
-            <a href="#course"><FaWhatsapp/></a>
+            <a href="#"><FaFacebook/></a>
+            <a href="#"><FaTwitter/></a>
+            <a href="#"><FaInstagram/></a>
+            <a href="#"><FaWhatsapp/></a>
           </div>
         </div>
 
