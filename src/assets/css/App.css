@@ -382,11 +382,69 @@ html{
    color: #0E1220;
    box-sizing: border-box;
 }
-
-
 /* PROGRAMS SECTION ENDS HERE */
 
+/* COURSES SECTION STARTS HERE */
+.course-sec {
+   /* background: rebeccapurple; */
+   padding: 50px 0px;
+}
+.course-sec .left-right>h1{
+   color: #0E1220;
+   text-align: center;
+   text-transform: capitalize;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 10px 0px 30px 0px;
+}
+.course-sec .left-right>h1::before,
+.course-sec .left-right>h1::after{
+   content: "";
+   height: 3px;
+   width: 50px;
+   background: #F2B636;
+   display: inline;
+   margin: 0px 10px;
+}
+.course-sec .inner{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 10px 0px;
+}
+.course-sec .inner .eachitem{
+   width: 22%;
+   padding: 10px;
+   box-shadow: 0px 0px 10px gray;
+   border-radius: 5px;
+   /* background:rebeccapurple; */
 
+   .forimg{
+      width: 100%;
+      img{
+         width: 100%;
+      }
+   }
+   h2{
+      text-align: center;
+      margin: 10px 0px;
+      color: #0E1220;
+   }
+   p{
+      font-size: 17px;
+      text-align: center;
+      color: #0E1220;
+   }
+}
+.course-sec .inner .innerscroll{
+   height: 450px;
+   overflow-y: scroll;
+}
+
+
+
+/* COURSES SECTION ENDS HERE */
 
 /* CERTIFICATE VERIFICATION STARTS HERE */
 .certificate-sec{
@@ -709,11 +767,27 @@ html{
       }
    }
    .program-sec .inner-two h1,
-.program-sec .inner-two ul{
-   color: #0E1220;
-   margin: 0px !important;
-   text-align: center;
-}
+   .program-sec .inner-two ul{
+      color: #0E1220;
+      margin: 0px !important;
+      text-align: center;
+   }
+
+   /* courses section */
+   .course-sec .inner{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 10px 0px;
+   }
+   .course-sec .inner .eachitem{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      box-shadow: 0px 0px 10px gray;
+      border-radius: 5px;
+      margin-bottom: 15px;
+   }
 
    /* certificate section */
    .certificate-sec .inner-div{

@@ -28,7 +28,7 @@ const Header = () => {
                   <a href="#program">Programs</a>
                </li>
                <li>
-                  <a href="/">Courses</a>
+                  <a href="#course">Courses</a>
                </li>
             </ul>
          </div>

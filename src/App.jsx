@@ -6,6 +6,7 @@ import aboutimg from "./assets/images/background5.jpeg"
 import vision from "./assets/images/vision 3.jpg";
 import mission from "./assets/images/mission.jpg";
 import { FaRegDotCircle } from "react-icons/fa";
+import Courses from './components/Courses'
 
 function App() {
 
@@ -132,6 +133,9 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* COURSES */}
+      <Courses/>
 
       {/* CERTIFICATE SECTION */}
 
