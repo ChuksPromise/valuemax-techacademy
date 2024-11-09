@@ -7,8 +7,22 @@ import vision from "./assets/images/vision 3.jpg";
 import mission from "./assets/images/mission.jpg";
 import { FaRegDotCircle } from "react-icons/fa";
 import Courses from './components/Courses'
+// import CustomButton from './components/Button'
 
 function App() {
+
+  // const substyle = {
+  //   color: "red",
+  //   background: "white",
+  //   border: "1px solid red",
+  //   padding: "10px 15px"
+  // }
+  
+  // const logstyle = {
+  //   color: "gold",
+  //   background: "white",
+  //   border: "1px solid gold"
+  // 
 
   return (
     <>
@@ -25,6 +39,9 @@ function App() {
         </div>
         
       </div>
+
+      {/* <CustomButton text="SUBMIT" thestyle={substyle}/>
+      <CustomButton text="LOGIN" thestyle={logstyle}/> */}
 
       {/* about section */}
       <div className='about-sec left-right' id='about'>
